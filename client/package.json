@@ -1,0 +1,61 @@
+{
+  "name": "react-client",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3001",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.1.1",
+    "@testing-library/user-event": "^13.5.0",
+    "@tinymce/tinymce-react": "^6.3.0",
+    "js-cookie": "^3.0.5",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.4.1",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.10.2",
+    "react-validation": "^3.0.7",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@ramonak/react-progress-bar": "^5.4.0",
+    "@srexi/purecounterjs": "^1.5.0",
+    "altcha": "^2.0.2",
+    "aos": "^2.3.4",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.3.5",
+    "bootstrap-icons": "^1.11.3",
+    "choices.js": "^11.1.0",
+    "classnames": "^2.5.1",
+    "dompurify": "^2.4.0",
+    "glightbox": "^3.3.1",
+    "isotope-layout": "^3.0.6",
+    "moment": "^2.29.4",
+    "react-slick": "^0.30.3",
+    "slick-carousel": "^1.8.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
