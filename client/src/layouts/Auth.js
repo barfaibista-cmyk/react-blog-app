@@ -5,7 +5,7 @@ import './frontend.css';
 const Auth = () => {
 	useEffect(() => {
 		if(document.body.classList.contains('login-page') === false && document.body.classList.contains('bg-body-secondary') === false) {
-			if(document.body.classList.contains('bg-body-secondsry') === false) {
+			if(document.body.classList.contains('bg-body-secondary') === false) {
 				document.body.classList.add('bg-body-secondary');
 			} else {
 				document.body.classList.remove('bg-body-secondary');
