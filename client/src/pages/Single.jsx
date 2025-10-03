@@ -215,7 +215,7 @@ const Single = () => {
 							<div className="container">
 								<article key={id} className="article">
 									<div className="post-img">
-										<img className="card-img-top" src={ post.picture === 'default-150x150.png' ? `${process.env.REACT_APP_PROXY}/api/images/upload/default-150x150.png` : `${process.env.REACT_APP_PROXY}/api/images/blog/${post.picture}`} alt={post.picture_description} />
+										<img className="card-img-top" src={ picture === 'default-150x150.png' ? `${process.env.REACT_APP_PROXY}/api/images/upload/default-150x150.png` : `${process.env.REACT_APP_PROXY}/api/images/blog/${post.picture}`} alt={post.picture_description} />
 									</div>
 									<h2 className="title">{title}</h2>
 									<div className="meta-top">
