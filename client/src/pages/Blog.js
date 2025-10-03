@@ -56,6 +56,7 @@ const Blog = () => {
 						<div className="col-lg-9">
 							<section id="blog-posts" className="blog-posts section">
 								<div className="container-fluid">
+
 									<div className="row gy-4">
 										{
 											currentEntryData.map((post, idx) => (
